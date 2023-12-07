@@ -86,7 +86,7 @@ gallery.addEventListener('click', event => {
   }
   console.log(event.target.dataset.source);
   instance = basicLightbox.create(
-    `<div><img class="modal-img" src="${event.target.dataset.source}"/></div>`,
+    `<div class="modal-window"><img class="modal-img" src="${event.target.dataset.source}"/></div>`,
     {
       onShow: () => {
         gallery.addEventListener('keydown', onKeydown);
