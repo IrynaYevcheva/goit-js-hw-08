@@ -53,9 +53,9 @@ img {
 }
 
 .gallery {
-  max-width: 1440px;
+  width: 1128px;
   margin: 0 auto;
-  padding: 24px 156px;
+  /* padding: 24px 156px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -63,7 +63,9 @@ img {
 }
 
 .gallery-item {
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
+  width: 360px;
+  height: 200px;
 }
 
 .gallery-image {
@@ -79,9 +81,9 @@ img {
 }
 
 .modal-window {
-  max-width: 1112px;
-  min-height: 640px;
-  padding: 28px 164px;
+  width: 1112px;
+  max-height: 640px;
+  /* padding: 28px 164px; */
 }
 
 .gallery-link:hover,
